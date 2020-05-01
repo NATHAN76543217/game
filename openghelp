@@ -1,0 +1,28 @@
+#color
+glColor3ubv((RED))
+glColor3ub(0,0,255)
+glColor3f(0, 1, 0)
+glColor3fv(vertex)
+ORANGE = (255, 165, 0)
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+BLUE = (0, 0, 255)
+YELLOW = (255, 248, 220)
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+BROWN = (150, 75, 0)
+
+#angle
+glVertex2i(0,0)
+
+#move
+#deplacer ref
+	glTranslated(50, 50, 0) #x, y, z
+#rotation ref
+	glRotated(angle, 0, 0, 1) #degree, x, y, z
+
+
+#######
+PYGAME
+#######
+screen_size = LARGEUR_ECRAN, HAUTEUR_ECRAN = 500, 300
